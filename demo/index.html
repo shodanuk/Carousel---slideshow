@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carousel-type slideshow-thing demo</title>
+  <link rel="stylesheet" href="reset.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="../dist/carousel.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="screen.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Carousel-type-slideshow-thing demo</h1>
+
+    <div id="container">
+      <div id="demo-carousel" class="carousel">
+        <div class="carousel-slides">
+          <div class="carousel-slide" id="slide-1">
+            <div class="carousel-slide-content">
+              <h2>Slide 1</h2>
+              <img src="img/1275050986702.jpg" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing dignissim arcu.
+                In eu mi eu metus rhoncus mattis vel sit amet leo. Sed iaculis lorem eu nisl dictum eu
+                hendrerit odio tincidunt. Praesent ullamcorper nunc venenatis risus mollis ut laoreet
+                justo aliquam. Nam et metus et arcu rutrum mattis. Fusce eu nunc auctor odio vestibulum
+                dictum eget quis nisi. Suspendisse elementum egestas lorem nec imperdiet. Aenean tempus
+                interdum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                faucibus risus a nisi vehicula consequat. Nulla pharetra fermentum tortor sed elementum.
+                Curabitur egestas, mauris vel molestie ultrices, velit urna pulvinar neque, sit amet
+                ultrices nibh metus sit amet velit.</p>
+            </div>
+          </div>
+          <div class="carousel-slide" id="slide-2">
+            <div class="carousel-slide-content">
+              <h2>Slide 2</h2>
+              <img src="img/admiralcat.jpg" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing dignissim arcu.
+                In eu mi eu metus rhoncus mattis vel sit amet leo. Sed iaculis lorem eu nisl dictum eu
+                hendrerit odio tincidunt. Praesent ullamcorper nunc venenatis risus mollis ut laoreet
+                justo aliquam. Nam et metus et arcu rutrum mattis. Fusce eu nunc auctor odio vestibulum
+                dictum eget quis nisi. Suspendisse elementum egestas lorem nec imperdiet. Aenean tempus
+                interdum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                faucibus risus a nisi vehicula consequat. Nulla pharetra fermentum tortor sed elementum.
+                Curabitur egestas, mauris vel molestie ultrices, velit urna pulvinar neque, sit amet
+                ultrices nibh metus sit amet velit.</p>
+            </div>
+          </div>
+          <div class="carousel-slide" id="slide-3">
+            <div class="carousel-slide-content">
+              <h2>Slide 3</h2>
+              <img src="img/cat-4chan-appeal-clicked.jpg" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing dignissim arcu.
+                In eu mi eu metus rhoncus mattis vel sit amet leo. Sed iaculis lorem eu nisl dictum eu
+                hendrerit odio tincidunt. Praesent ullamcorper nunc venenatis risus mollis ut laoreet
+                justo aliquam. Nam et metus et arcu rutrum mattis. Fusce eu nunc auctor odio vestibulum
+                dictum eget quis nisi. Suspendisse elementum egestas lorem nec imperdiet. Aenean tempus
+                interdum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                faucibus risus a nisi vehicula consequat. Nulla pharetra fermentum tortor sed elementum.
+                Curabitur egestas, mauris vel molestie ultrices, velit urna pulvinar neque, sit amet
+                ultrices nibh metus sit amet velit.</p>
+
+            </div>
+          </div>
+          <div class="carousel-slide" id="slide-4">
+            <div class="carousel-slide-content">
+              <h2>Slide 4</h2>
+              <img src="img/fail-24.jpg" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing dignissim arcu.
+                In eu mi eu metus rhoncus mattis vel sit amet leo. Sed iaculis lorem eu nisl dictum eu
+                hendrerit odio tincidunt. Praesent ullamcorper nunc venenatis risus mollis ut laoreet
+                justo aliquam. Nam et metus et arcu rutrum mattis. Fusce eu nunc auctor odio vestibulum
+                dictum eget quis nisi. Suspendisse elementum egestas lorem nec imperdiet. Aenean tempus
+                interdum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                faucibus risus a nisi vehicula consequat. Nulla pharetra fermentum tortor sed elementum.
+                Curabitur egestas, mauris vel molestie ultrices, velit urna pulvinar neque, sit amet
+                ultrices nibh metus sit amet velit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../lib/prototype_1_7_rc2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../lib/s2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../dist/carousel.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    document.observe("dom:loaded", function(){
+      var carousel = new Carousel('demo-carousel');
+    });
+  </script>
+</body>
+</html>

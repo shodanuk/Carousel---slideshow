@@ -1,0 +1,63 @@
+.carousel {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  _zoom: 1;
+}
+
+.carousel .carousel-slides {
+  height: 100%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.carousel .carousel-slide {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 97;
+}
+
+.carousel .carousel-paging {
+  bottom: 15px;
+  left: 50px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+}
+
+.carousel .carousel-paging ul {
+  overflow:hidden;
+}
+
+.carousel .carousel-paging li {
+  float: left;
+  height: 18px;
+  padding-left: 5px;
+  width: 18px;
+}
+
+.carousel .carousel-paging li:first-child {
+  padding-left: 0;
+}
+
+.carousel .carousel-paging li a {
+  height: 14px;
+  margin: 2px 0 0 2px;
+  width: 14px;
+}
+
+.carousel .carousel-paging li a:hover {}
+
+.carousel .carousel-paging li.active a,
+.carousel .carousel-paging li.active a:hover {
+  height: 18px;
+  margin: 0;
+  width: 18px;
+}
